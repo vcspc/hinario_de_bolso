@@ -1,0 +1,32 @@
+.cabecalho {
+    height: 81px;
+    background-color: #474747;
+}
+
+.logo {
+    display: inline-block;
+    fill: #7A7A7B;
+}
+
+.menu {
+    display: inline-block;
+}
+
+.menu-lista {
+    color: white;
+    display: inline-block;
+}
+
+#input-busca {
+    float: right
+
+}
+
+#botao-busca{
+    display: inline-block;
+}
+
+
+
+
+

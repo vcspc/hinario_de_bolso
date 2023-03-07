@@ -5,18 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hinário de Bolso</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <header>
-    <div>
+    <div class="cabecalho">
         <img class="logo" src="assets/logo.svg" alt="logo">
-        <nav>
-            <ul class="menu">
-                <li>Hinário</li>
-                <li>JA</li>
-                <li>Diversos</li>
+        <nav class="menu">
+            <ul class="menu-lista">
+                <li class="item">Hinário</li>
+                <li class="item">JA</li>
+                <li class="item">Diversos</li>
             </ul>
         </nav>
         <input id="input-busca" type="text" placeholder="buscar">
+        <button id="botao-busca"></button>
     </div>
 </header>
 <body>
@@ -27,7 +29,7 @@
     </div>
 </body>
 <footer>
-    <div class="cabecalho"> 
+    <div class="rodape"> 
        <p>Vinícius Costa &copy;</p>
     </div>
 </footer>
