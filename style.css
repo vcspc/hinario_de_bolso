@@ -1,29 +1,60 @@
 .cabecalho {
+    display: flex;
     height: 81px;
     background-color: #474747;
+    position: relative;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo {
     display: inline-block;
-    fill: #7A7A7B;
+    position: absolute;
+    left: 15px; 
+    opacity: 0.7;
 }
 
-.menu {
-    display: inline-block;
-}
-
-.menu-lista {
+.titulo {
     color: white;
-    display: inline-block;
+    text-align: center;
+    font-size: 1.5em;
+
 }
 
 #input-busca {
-    float: right
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    right: 40px;
+    background-color: #474747d8;
+    border-color: #5f5f5f;
+    stroke: none;
+    height: 20px;
+    border-radius: 20px;
+    color: white;
 
+}
+
+#input-busca::placeholder {
+    color: #757373;
+    text-align: center;
 }
 
 #botao-busca{
     display: inline-block;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    width: 25px;
+    height: 25px;
+    background-image: url(assets/busca.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #474747;
+    border-radius: 50px;
+    box-shadow: none;
+    border-color: none;
 }
 
 
