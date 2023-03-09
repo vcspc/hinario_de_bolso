@@ -1,4 +1,3 @@
-// Armazenamento das informações //
 
 import {l1, l2, l3, l4, l5, l6, l7, l8, l9, l10} from './hinos.js'
 
@@ -16,4 +15,22 @@ const hinos = [
 ];
 
 //Função de busca de dados//
+
+function buscarHinos(termoDeBusca) {
+
+    const resultados = [];
+
+    hinos.forEach(function(hino)  {
+        if (hino.nome.toLowerCase().includes(termoDeBusca.toLowerCase())) {
+              resultados.push(hino);  
+        }
+    });
+
+    return resultados;
+}
+
+const resultados1 = buscarHinos("Santo, Santo, Santo");
+
+console.log(resultados1)
+
 
