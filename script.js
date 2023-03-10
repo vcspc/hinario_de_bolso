@@ -16,21 +16,39 @@ const hinos = [
 
 //Função de busca de dados//
 
-function buscarHinos(termoDeBusca) {
+/*function buscarHinos(termoDeBusca) {
 
     const resultados = [];
 
     hinos.forEach(function(hino)  {
         if (hino.nome.toLowerCase().includes(termoDeBusca.toLowerCase())) {
-              resultados.push(hino);  
+            resultados.push(hino);  
         }
     });
 
     return resultados;
-}
+}*/
 
-const resultados1 = buscarHinos("Santo, Santo, Santo");
+/*function atualizarListaDeItens(termoDeBusca) {
+    const resultados = hinos.filter(function(hino) {
+      return hino.nome.toLowerCase().includes(termoDeBusca.toLowerCase());
+    });
+    
+    const lista = document.getElementsByClassName("lista");
+    lista.innerHTML = "";
+    
+    resultados.forEach(function(hino) {
+      const li = document.createElement("li");
+      li.textContent = `${hino.nome}`;
+      lista.appendChild(li);
+    });
+  }
+  
 
-console.log(resultados1)
+  const barraDeBusca = document.getElementById("input-busca");
+barraDeBusca.addEventListener("input", function(evento) {
+  atualizarListaDeItens(evento.target.value);
+});*/
+
 
 
