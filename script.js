@@ -29,7 +29,7 @@ const hinos = [
     return resultados;
 }*/
 
-/*function atualizarListaDeItens(termoDeBusca) {
+function atualizarListaDeItens(termoDeBusca) {
     const resultados = hinos.filter(function(hino) {
       return hino.nome.toLowerCase().includes(termoDeBusca.toLowerCase());
     });
@@ -48,7 +48,7 @@ const hinos = [
   const barraDeBusca = document.getElementById("input-busca");
 barraDeBusca.addEventListener("input", function(evento) {
   atualizarListaDeItens(evento.target.value);
-});*/
+});
 
 
 
